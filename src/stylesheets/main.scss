@@ -6,17 +6,17 @@
 body {
     background-color: lightgray;
 }
-
+// nav section
 nav {
-    background-color: lightblue;
+    background-color: white;
     height: 100px;
 }
 
 
 
 .logosize {
-    width: 50px;
-    height: 50px;
+    width: 70px;
+    height: 70px;
 }
 
 .logosize2 {
@@ -24,6 +24,15 @@ nav {
     height: 100px;
     
 }
+
+.dropdowncolor {
+    background-color: white;
+}
+
+// main
+
+
+
 
 
 footer {
@@ -40,12 +49,32 @@ footer {
 }
 
 // mobile
-@media all and (max-width: 500px){
+@media all and (max-width: 480px){
     body {
         background-color: blue;
     }
-
+    .thesearchbar {
+        display: none;
+    }
 // .subnewsletter {
 
 // }
+}
+
+@media all and (min-width: 481px) and (max-width: 768px){
+    body {
+        background-color: red;
+    }
+    .thesearchbar {
+        display: none;
+    }
+}
+
+@media all and (min-width: 769px) and (max-width: 1024px){
+    body {
+        background-color: yellow;
+    }
+    .thesearchbar {
+        display: none;
+    }
 }
