@@ -3,9 +3,11 @@
 @import "bootstrap-icons/font/bootstrap-icons.css";
 
 
-*{
-    margin: auto;
-    padding: auto;
+*  
+    { 
+    margin: 0; 
+    padding: 0; 
+    border: 0; 
 }
 
 body {
@@ -28,7 +30,7 @@ nav {
     height: 130px;
 }
 
-.logosize2 {
+.logosizefooter {
     width: 80px;
     height: 80px;
     
@@ -74,7 +76,15 @@ nav {
 
 
 footer {
-    background-color: lightblue;
+    background-color: white;
+    height: 200px;
+}
+
+.footer75 {
+    height: 100px;
+}
+
+.footercolumnheight {
     height: 200px;
 }
 
