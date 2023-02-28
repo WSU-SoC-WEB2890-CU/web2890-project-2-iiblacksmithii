@@ -3,8 +3,10 @@
 @import "bootstrap-icons/font/bootstrap-icons.css";
 
 
+
 body {
     background-color: lightgray;
+   
 }
 // nav section
 nav {
@@ -39,6 +41,10 @@ nav {
     background-color: white;
 }
 
+.dropdownmenu {
+    min-height: 500px;
+}
+
 //jumbotron
 
 .jumbotronbackground{
@@ -47,6 +53,7 @@ nav {
 //  opacity: 0.6;
  background-size: cover;
  height: 450px;
+ max-width: 100%;
 }
 
 
@@ -82,6 +89,8 @@ footer {
 @media all and (max-width: 480px){
     body {
         background-color: blue;
+        margin: -1px;
+        padding: 0px;
     }
     .thesearchbar {
         display: none;
@@ -93,7 +102,8 @@ footer {
 
 @media all and (min-width: 481px) and (max-width: 768px){
     body {
-        background-color: red;
+        background-color: blue;
+        background-size: cover;
     }
     .thesearchbar {
         display: none;
