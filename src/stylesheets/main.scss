@@ -8,11 +8,13 @@ body {
 }
 // nav section
 nav {
-    background-color: white;
+    // background-color: white;
     height: 100px;
 }
 
-
+.navbarbackgroundgradient{
+    background-color: dark;
+}
 
 .logosize {
     width: 70px;
@@ -25,8 +27,25 @@ nav {
     
 }
 
+.bgroundededges {
+    border-radius: 25px;
+  background: white;
+  padding: 20px;
+  width: 210px;
+  height: 80px;
+}
+
 .dropdowncolor {
     background-color: white;
+}
+
+//jumbotron
+
+.jumbotronbackground{
+ background-image: url(../images/HorizontalTop.PNG);
+ background-color: blue;
+ background-size: cover;
+ height: 450px;
 }
 
 // main
@@ -39,6 +58,14 @@ footer {
     background-color: lightblue;
     height: 200px;
 }
+
+.removemarginspadding{
+    margin:0 !important;
+    padding:0 !important;
+}
+
+
+
 
 .footertext {
     font-size: small;
