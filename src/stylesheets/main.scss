@@ -114,9 +114,12 @@ footer {
     .thesearchbar {
         display: none;
     }
-// .subnewsletter {
-
-// }
+    *  
+    { 
+    margin: 0; 
+    padding: 0; 
+    border: 0; 
+}
 }
 
 @media all and (min-width: 481px) and (max-width: 768px){
