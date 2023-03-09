@@ -18,6 +18,30 @@ body {
     padding: 0; 
     border: 0; 
 }
+// ////////////////////////////////////////////////////////////////////////////////////////////
+// footer under control
+
+#page-container {
+    position: relative;
+    min-height: 100vh;
+  }
+  
+  #content-wrap {
+    padding-bottom: 2.5rem;    /* Footer height */
+  }
+  
+  #footer {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    height: 2.5rem;            /* Footer height */
+  }
+
+// //////////////////////////////////////////////////////////////////////////////////////////////////
+
+
+
+
 // nav section
 nav {
     // background-color: white;
@@ -67,16 +91,40 @@ nav {
 
 //jumbotron
 
-.jumbotronbackground{
- background-image: url(../images/Colors2image.PNG);
- background-color: none;
-//  opacity: 0.6;
- background-size: cover;
- height: 450px;
+// .jumbotronbackground{
+//  background-image: url(../images/Colors2image.PNG);
+//  background-color: none;
+// //  opacity: 0.6;
+//  background-size: cover;
+//  height: 450px;
  
-}
+// }
 
+// jumbotron end
 
+//jumbotron 2 start
+
+.jumbotron {
+    position: relative;
+    overflow: hidden;
+    background-color:black;
+    height: 450px;
+  }
+  .jumbotron video {
+    position: absolute;
+    z-index: 1;
+    top: 0;
+    width:100%;
+    height:100%;
+    /*  object-fit is not supported on IE  */
+    object-fit: cover;
+    opacity:0.5;
+  }
+  .jumbotron .container {
+    z-index: 3;
+    position: relative;
+  }
+//jumobtron 2 end
 
 // main
 
@@ -85,7 +133,7 @@ nav {
 
 
 footer {
-    background-color: white;
+    background-color: blue;
     height: 240px;
 }
 
@@ -113,9 +161,9 @@ footer {
     font-size: xx-small;
 }
 
-.linklogosizeamazon {
-    width: 30px;
-    height: 30px;
+.linklogosize{
+    width: 20px;
+    height: 20px;
 }
 
 // mobile
@@ -151,6 +199,13 @@ footer {
 }
 
 @media all and (min-width: 769px) and (max-width: 1024px){
+    // *{
+    //     padding: 0;
+    //     margin: 0;
+    //     border: 0;
+    // }
+
+
     body {
         background-color: none;
     }
