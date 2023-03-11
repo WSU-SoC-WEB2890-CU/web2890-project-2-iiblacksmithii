@@ -93,145 +93,70 @@ nav {
     margin-right: 20%;
 }
 
-//jumbotron
-
-// .jumbotronbackground{
-//  background-image: url(../images/Colors2image.PNG);
-//  background-color: none;
-// //  opacity: 0.6;
-//  background-size: cover;
-//  height: 450px;
- 
-// }
-
-// jumbotron end
-
-//jumbotron 2 start
-
-// .jumbotron {
-//     position: relative;
-//     overflow: hidden;
-//     background-color:black;
-//     height: 450px;
-//   }
-//   .jumbotron video {
-//     position: absolute;
-//     z-index: 1;
-//     top: 0;
-//     width:100%;
-//     height:100%;
-//     /*  object-fit is not supported on IE  */
-//     object-fit: cover;
-//     opacity:0.5;
-//   }
-//   .jumbotron .container {
-//     z-index: 3;
-//     position: relative;
-//   }
-//jumobtron 2 end
-
-// jumbotron 3 start
-#video-background {
-    position: absolute;
-    top: 0;
-    right: 0;
-    bottom: 0;
-    left: 0;
-    overflow: hidden;
-    z-index: 1;
-    width: 100%;
-}
-
-.jumbotron {
-position: relative;
-overflow: hidden;
-height: 400px;
-}
-
-.jumbotron .container {
-position: relative;
-z-index: 1;
-}
-
-// jumbotron 3 end
-
-
-//jumbotron 4 start
-// #video-background { 
-//     position: relative;
-//       top: 0;
-//       right: 0;
-//       bottom: 0;
-//       left: 0;
-//       overflow: hidden;
-//       z-index: -100;
-//       width:100%;
-//       background-color: #394396;
-      
-// }
-// .jumbotron{
-//     position: relative;
-//     z-index:-101;
-//     background-color: #394396;
-//     color:#394396;
-    
-//   }
-//jumbotron 4 end
-
-//jumbotron 5 start
-// .jumbotron{
-//     position: relative;
-//     z-index:-2;
-//   }
-  
-//   #video-background { 
-//     position:absolute;
-//     top: 0;
-//     right: 0;
-//     bottom: 0;
-//     left: 0;
-//     overflow: none;
-//     z-index: -1;
-//     width:100%;
-//   }
-// jumbotron 5 end
-
 
 // main
 .mainsectionmargins {
     margin: 3em;
 }
+
+
+// About image
+.aboutpageimage {
+    width: 300px;
+    height: 300px;
+} 
+// About image end
+
+
 //main
 
 
+.counter-section p {
+    font-weight: 500;
+    margin: 0;
+    color: #fe4f6c;
+  }
+  .theme-color {
+      color: #fe4f6c;
+  }
+  
+  .section {
+      padding: 100px 0;
+      position: relative;
+  }
+  .gray-bg {
+      background-color: #ebf4fa;
+  }
+  .px-btn.theme {
+      background: #fe4f6c;
+      color: #ffffff;
+      border: 2px solid #fe4f6c;
+  }
+  .px-btn {
+      padding: 0 20px;
+      line-height: 42px;
+      border: 2px solid transparent;
+      position: relative;
+      display: inline-block;
+      background: none;
+      border: none;
+      -moz-transition: ease all 0.35s;
+      -o-transition: ease all 0.35s;
+      -webkit-transition: ease all 0.35s;
+      transition: ease all 0.35s;
+      border-radius: 5px;
+      font-size: 16px;
+      font-weight: 500;
+  }
+  
+  .px-btn.theme-t {
+      background: transparent;
+      border: 2px solid #fe4f6c;
+      color: #fe4f6c;
+  }
 
 
-//ABOUT PAGEmain delete
 
-
-
-
-//main delete end
-
-
-
-
-
-// delete
-// .icons-bar-section{
-// border-top: 1px solid #aaa;
-// border-bottom: 1px solid #aaa;
-// background: #492365;
-// box-shadow: inset 0px 0px 30px 10px rgba(0, 0, 0, 0.4);
-// padding: 25px 0px 25px 0px;
-// width: 100%;
-// z-index: 1;
-// }
-
-// *::before, *::after {
-//     box-sizing: inherit;
-// }
-// delete
 
 
 
