@@ -285,11 +285,17 @@ footer {
         border: 0;
     }
     
-    
+    .jumbotron {
+        height: 190px;
+    }
     // .thesearchbar {
     //     display: none;
     // }
-     
+    iframe {
+        max-width: 100% !important;
+        width: auto !important;
+        height: auto !important;
+    }
     
 }
 
@@ -307,6 +313,14 @@ footer {
     // .thesearchbar {
     //     display: none;
     // }
+    .jumbotron {
+        height: 300px;
+    }
+    iframe {
+        max-width: 100% !important;
+        width: auto !important;
+        height: auto !important;
+    }
 }
 
 @media all and (min-width: 769px) and (max-width: 1024px){

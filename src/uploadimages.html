@@ -8,10 +8,14 @@
   <meta name="robots" content="index,follow">
   <meta name="description" content="TODO: Project 2 ...">
 
-
+  
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+  <link rel="stylesheet" href="./stylesheets/uploadimages.scss">
   <link rel="stylesheet" href="./stylesheets/about.scss">
  
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" />
+
+
 </head>
 
 <body class="bg-light">
@@ -66,7 +70,7 @@
           </div>
         </li>
         <li class="nav-item p-3 text-center">
-          <a class="nav-link  rounded border border-light border-3 text-uppercase text-light bg-dark" href="./contact.html">Reviews</a>
+          <a class="nav-link  rounded border border-light border-3 text-uppercase text-light bg-dark" href="./contact.html">Contact</a>
         </li>
         <!-- <li class="nav-item p-3">
           <a class="nav-link bg-light rounded" href="./contact.html">Contact</a>
@@ -88,66 +92,87 @@
 
 
 
-<main class="">
+<!-- <main class="app">
 
-    <section class="section about-section gray-bg" id="about">
-        <div class="container">
-            <div class="row align-items-center justify-content-around flex-row">
-                <div class="col-lg-5 text-center">
-                    <div class="about-img">
-                        <img class="aboutpageimage" src="./images/ArtistImage.PNG" alt="artistimage">
-                        <hr>
-                        <h3 class="dark-color">Jlind124@hotmail.com</h3>
-                    </div>
-                </div>
-                <br>
-                
-                <div class="col-lg-6">
-                    <hr>
-                    <div class="about-text">
-                        <h3 class="dark-color">Just trying to put all the images in my head on paper</h3>
-                        <h4 class="theme-color">Owner &amp; Creator &amp Shipper</h4>
-                        <p>I am a self taught hobbyist and I absolutely love creating art. Each piece contains a little part of me that I hope to share with you. I am also available for commissions so feel free to contact me if you have something particular in mind.</p>
-                        
-                        <div class="btn-bar ">
-                            <a class="px-btn theme" href="https://www.amazon.com/s?rh=n%3A7141123011%2Cp_4%3AWhett_paint&ref=bl_sl_s_ap_web_7141123011">Inkfont</a>
-                            <a class="px-btn theme" href="https://www.teepublic.com/user/whettpaint">Teepublic</a>
-                            <a class="px-btn theme" href="#">Facebook</a>
-                            
-                            
-                        </div>
-                        <br>
-                        <div class="btn-bar ">
-                          <a class="px-btn theme" href="https://twitter.com/WhettonJessica">Twitter</a>
-                          <a class="px-btn theme" href="https://www.redbubble.com/people/Jwhett/shop?asc=u&ref=account-nav-dropdown">Redubble</a>
-                          <a class="px-btn theme" href="https://www.amazon.com/s?rh=n%3A7141123011%2Cp_4%3AWhett_paint&ref=bl_sl_s_ap_web_7141123011">Amazon</a>
-                          
-                      </div>
-                      <br>
-                        <div class="btn-bar ">
-                          <a class="px-btn theme" href="https://www.etsy.com/shop/WhettPaint?ref=profile_header">Esty</a>
-                          <!-- <a class="px-btn theme" href="#">Redubble</a>
-                          <a class="px-btn theme" href="#">Amazon</a> -->
-                          
-                      </div>
-                    </div>
-                    <hr>
-                </div>
-                
-            </div>
+        <div class="header">
+            <h2>Upload Images</h2>
+            <div class="server-messages"></div>
         </div>
-    </section>
+
+        <div class="input-div">
+            <p>Drage & Drop images here or <span class="browse">Browse</span></p>
+            <input type="file" class="file" multiple="multiple" accept="image/png, image/jpeg, image/jpg" title="something">
+        </div>
+
+        <form id="saved-form">
+            <div>
+                <h3 class="">Saved In Server</h3>
+                <button type="submit">Delete</button>
+            </div>
+            <div class="saved-div">
+
+            </div>
+        </form>
+        <form id="queued-form">
+            <div class="header">
+                <h3>Queued In Frontend</h3>
+                <button type="submit">Upload</button>
+            </div>
+            <div class="queued-div"></div>
+
+        </form>
+
+    
 
 
 
 
 
-</main>
+</main> -->
 
 
 
 
 
+
+
+<div class="wrapper">
+    <div class="gallery">
+      <div class="image"><span><img src="https://picsum.photos/600/450/?random&#39" alt=""></span></div>
+      <div class="image"><span><img src="https://picsum.photos/600/451/?random&#39" alt=""></span></div>
+      <div class="image"><span><img src="https://picsum.photos/600/452/?random&#39" alt=""></span></div>
+    </div>
+  </div>
+  <div class="preview-box">
+    <div class="details">
+      <span class="title"><p class="current-img"></p>/<p class="total-img"></p></span>
+      <span class="icon fas fa-times"></span>
+    </div>
+    <div class="image-box">
+      <div class="slide prev"><i class="fas fa-angle-left"></i></div>
+      <div class="slide next"><i class="fas fa-angle-right"></i></div>
+      <img src="" alt="">
+    </div>
+  </div>
+  <div class="shadow"></div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!-- <p>Drag and drop an image into the box</p>
+  <div id="image_drop_area"></div>
+  <p id="file_name"></p> -->
 
 
 
@@ -180,7 +205,7 @@
        
        <li class="nav-item mb-1 footertext text-light"><a href="./index.html" class="nav-link p-0 text-muted">Home</a></li>
        <li class="nav-item mb-1 footertext text-light"><a href="./productart.html" class="nav-link p-0 text-muted">ProjectArt</a></li>
-       <li class="nav-item mb-1 footertext text-light"><a href="./contact.html" class="nav-link p-0 text-muted">Reviews</a></li>
+       <li class="nav-item mb-1 footertext text-light"><a href="./contact.html" class="nav-link p-0 text-muted">Contact</a></li>
        <li class="nav-item mb-1 footertext text-light"><a href="./about.html" class="nav-link p-0 text-muted">About</a></li>
        
      </ul>
@@ -311,6 +336,99 @@
 
 <!-- FOOTER END -->
 
+
+
+    <!-- <script>
+        let queuedImagesArray = [],
+        savedForm = document.querySelector("#saved-form"),
+        queuedForm = document.querySelector("#queued-form"),
+        savedDiv = document.querySelector(".saved-div"),
+        queuedDiv = document.querySelector(".queued-div"),
+        inputDiv = document.querySelector(".input-div"),
+        input = document.querySelector(".input-div input"),
+        serverMessage = document.querySelector(".server-message"),
+        deleteImages = [];
+
+        // SAVED IN SERVER Images  
+
+        // QUEUED IN FRONTEND IMAGES
+    input.addEventListener("change", () => {
+        const files = input.files
+        console.log(files)
+        for(let i=0; i < files.length;i++){
+            queuedImagesArray.push(files[i])
+        }
+        queuedForm.reset()
+        displayQueuedImages()
+    })
+
+    inputDiv.addEventListener("drop", (e) =>{
+        e.preventDefault()
+        const files = e.dataTransfer.files
+        console.log(files)
+        for(let i=0; i < files.length; i++){
+            if(!files[i].type.match("iamge")) continue
+
+            if(queuedImagesArray.every(image => image.name !== files[i].name))
+            queuedImagesArray.push(files[i])
+        }
+        displayQueuedImages()
+    })
+
+    function displayQueuedImages(){
+        let images = ""
+        queuedImagesArray.forEach((image, index) => {
+            images +=`
+            <div class="image">
+            <img src="${URL.createObjectURL(image)}" alt="image">
+            <span onclick="deleteQueuedImage(${index})">&times;</span>
+            </div>`
+        })
+        queuedDiv.innerHTML = images
+    }
+
+    function deleteQueuedImage(index){
+        queuedImagesArray.splice(index, 1)
+        displayQueuedImages()
+    }
+
+    queuedForm.addEventListener("submit", (e) => {
+        e.preventDefault()
+        sendQueuedImagesToServer()
+    })
+
+    function sendQueuedImagesToServer() {
+        const formData = new FormData(queuedForm)
+
+        queuedImagesArray.forEach((image, index) =>{
+            formData.append(`file[${index}]`, image)
+        })
+    
+    fetch("upload", {
+        method: "POST",
+        body : formData
+    })
+
+    .then(response => {
+        if(response.status !== 200) throw Error(response.statusText)
+        location.reload()
+    })
+
+    // .catch(error =>{
+    //     serverMessage.innerHTML = error
+    //     serverMessage.style.cssText = "background-color: #f8d7da; color: #b71c1c"
+    // })
+
+    }
+
+
+
+    </script> -->
+
+    
+
+<!-- 
+    <script src="./javascripts/uploadimages.js"></script> -->
 
 
 
