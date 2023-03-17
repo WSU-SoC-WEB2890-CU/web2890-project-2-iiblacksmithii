@@ -76,6 +76,10 @@ nav {
     height: 40px;
 }
 
+.companynamelarge {
+    width: 780px;
+    height: 210px;
+}
 
 .floatright {
     float: right;
@@ -308,6 +312,10 @@ footer {
         max-width: 100% !important;
         width: auto !important;
         height: auto !important;
+    }
+    .companynamelarge {
+        width: 330px;
+        height: 70px;
     }
     
 }
