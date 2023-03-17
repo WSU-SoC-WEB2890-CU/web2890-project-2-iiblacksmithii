@@ -1,0 +1,10 @@
+Cerulean: #9BB7D4
+ Quiet Wave #1B7340
+Burnt Coral #E9897E
+French Blue #0072B5
+Marigold #FDAC53
+Rust #B55A30
+Green Ash #A0DAA9
+Brave Ground #F19828
+Raspberry Sorbet #D2386C
+Amethyst Orchard #926AA6
